@@ -40,11 +40,31 @@
   <meta name="twitter:app:name:googleplay" content="2048">
   <meta name="twitter:app:id:googleplay" content="com.gabrielecirulli.app2048">
   <meta name="twitter:app:url:googleplay" content="https://play.google.com/store/apps/details?id=com.gabrielecirulli.app2048">
+  <style>
+  #div_title_part{
+    
+    float: left;
+  }
+  #title_2048{
+    font-size: 64px;
+    line-height: 64px;
+    font-weight: bold;
+    margin: 0;
+    display: block;
+  }
+  #title_wendy{
+    text-align: center;
+    margin:0;
+  }
+  </style>
 </head>
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">2048</h1>
+      <div id="div_title_part">
+        <h1 id="title_2048">2048</h1>
+        <h2 id="title_wendy">王叮咚版</h2>
+      </div>
       <div class="scores-container">
         <div class="score-container">0</div>
         <div class="best-container">0</div>
@@ -52,7 +72,7 @@
     </div>
 
     <div class="above-game">
-      <p class="game-intro">Join the numbers and get to the <strong>2048 tile!</strong></p>
+      <p class="game-intro">Join the numbers and get to the <strong>王叮咚 tile!</strong></p>
       <a class="restart-button">New Game</a>
     </div>
 
